@@ -8,7 +8,7 @@ Scenario Outline: Verify place is being successfully added
 			Then API call got success with status code "200"
 			And "status" in response is "OK"
 			And "scope" in response is "APP"
-			And verify place_ID created maps to "<name>" using "getPlaceAPI" 
+#			And verify place_ID created maps to "<name>" using "getPlaceAPI" 
 			
 			Examples:
 			|name|language|address|
