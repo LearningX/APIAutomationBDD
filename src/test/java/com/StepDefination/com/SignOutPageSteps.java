@@ -16,7 +16,6 @@ public class SignOutPageSteps extends BaseClass {
 	HomePage homePage = new HomePage();
 
 	@And("User navigate to my account and click on signout button")
-
 	public void clickOnSignOutButton() {
 		homePage.hoverElementToMyAccount();
 		signOut.userClickOnSignOutLink();

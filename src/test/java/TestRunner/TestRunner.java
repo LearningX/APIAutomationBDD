@@ -16,7 +16,7 @@ import cucumber.api.junit.Cucumber;
 			"html: target/cucumber-reports",
 			"json:target/cucumber-report/cucumber.json",
 			"junit: target/cucumber-reports/Cucumber.xml"},
-	glue="com.StepDefination.com")
+	glue="src/test/java/com/StepDefination/com")
 
 public class TestRunner {
 		
