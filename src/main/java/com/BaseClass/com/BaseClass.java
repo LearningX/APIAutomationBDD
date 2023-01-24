@@ -78,6 +78,7 @@ public class BaseClass {
 		//	String currentDiretory = System.getProperty("user.dir");
 		FileUtils.copyFile(source, new File( ".//screenshorts//" + System.currentTimeMillis() + ".png"));
 		// copy file at destination from Source to Destination and filename format
+		//
 	}
 
 	public void clickElementByJSExecutor(final By by) {
